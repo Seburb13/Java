@@ -1,2 +1,5 @@
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";}
+function showName() {
+    const nameInput = document.getElementById("nameInput").value;
+    const nameOutput = document.getElementById("nameOutput");
+    nameOutput.innerHTML = "Cześć " + nameInput;
+  }
